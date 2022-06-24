@@ -70,10 +70,11 @@
       font-size: 13px;
     }
   }
+  .title {
+    font-size: 28px;
+  }
 }
-.title {
-  font-size: 28px;
-}
+
 @media (max-width: 767px) {
   .header {
     flex-direction: column;
