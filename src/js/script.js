@@ -24,6 +24,3 @@ const slider = tns({
     },
   },
 });
-document.querySelector(".goto-button").onclick = function () {
-  slider.goTo(3);
-};
