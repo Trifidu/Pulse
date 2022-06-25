@@ -89,6 +89,12 @@
       line-height: 20px;
     }
   }
+  .carousel {
+    padding: 71px 0;
+    img {
+      width: 100%;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -186,6 +192,13 @@
   }
   .feed-form {
     width: 265px;
+  }
+  .carousel {
+    padding: 51px 0;
+    width: 570px;
+    img {
+      width: 100%;
+    }
   }
 }
 @media (max-width: 575px) {
@@ -297,6 +310,13 @@
     input {
       height: 47px;
       font-size: 13px;
+    }
+  }
+  .carousel {
+    padding: 21px 0;
+    width: 305px;
+    img {
+      width: 100%;
     }
   }
 }
