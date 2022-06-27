@@ -26,16 +26,12 @@ const slider_feed = tns({
   container: ".feed__slider",
   items: 1,
   slideBy: 1,
-  controlsContainer: "#customize-controls",
   navPosition: "bottom",
   touch: true,
   mouseDrag: true,
   preventScrollOnTouch: "auto",
   responsive: {
-    993: {
-      nav: false,
-      controls: true,
-    },
+    993: {},
     992: {
       disable: true,
     },
@@ -78,4 +74,19 @@ $(document).ready(function () {
   }
   toggleSlide(".catalog-item__link");
   toggleSlide(".catalog-item__back");
+
+  //Modal
+  $("[data-modal=consultation]").on("click", function () {
+    $(".overlay, #consultation").fadeIn("slow");
+  });
+  $(".modal__close").on("click", function () {
+    $(".overlay, #consultation, #thanks, #order").fadeOut("slow");
+  });
+
+  $(".button_mini").each(function (i) {
+    $(this).on("click", function () {
+      $("#order .modal__descr").text($(".catalog-item__subtitle").eq(i).text());
+      $(".overlay, #order").fadeIn("slow");
+    });
+  });
 });
