@@ -122,6 +122,12 @@
       padding: 25px 0 15px 0;
     }
   }
+  .modal {
+    &__close {
+      font-size: 85px;
+      right: -50px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -424,15 +430,32 @@
     }
   }
   .footer {
+    height: 150px;
     &__address {
       font-size: 18px;
     }
     &__phone {
+      margin-bottom: 15px;
       font-size: 20px;
     }
     &__social-item {
       width: 45px;
       height: 45px;
+    }
+  }
+  .modal {
+    width: 280px;
+    &__close {
+      font-size: 65px;
+      right: -40px;
+    }
+    &__subtitle {
+      font-size: 15px;
+      line-height: 16px;
+    }
+    &__descr {
+      font-size: 12px;
+      line-height: 14px;
     }
   }
 }

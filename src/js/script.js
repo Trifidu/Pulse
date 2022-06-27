@@ -30,6 +30,8 @@ const slider_feed = tns({
   touch: true,
   mouseDrag: true,
   preventScrollOnTouch: "auto",
+  autoplayButtonOutput: false,
+
   responsive: {
     993: {},
     992: {
@@ -40,6 +42,7 @@ const slider_feed = tns({
       disable: false,
       controls: false,
       nav: true,
+      autoplay: true,
     },
   },
 });
