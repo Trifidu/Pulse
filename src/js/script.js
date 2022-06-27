@@ -22,6 +22,32 @@ const slider = tns({
   },
 });
 
+const slider_feed = tns({
+  container: ".feed__slider",
+  items: 1,
+  slideBy: 1,
+  controlsContainer: "#customize-controls",
+  navPosition: "bottom",
+  touch: true,
+  mouseDrag: true,
+  preventScrollOnTouch: "auto",
+  responsive: {
+    993: {
+      nav: false,
+      controls: true,
+    },
+    992: {
+      disable: true,
+    },
+    769: {},
+    100: {
+      disable: false,
+      controls: false,
+      nav: true,
+    },
+  },
+});
+
 $(document).ready(function () {
   $("ul.catalog__tabs").on(
     "click",
