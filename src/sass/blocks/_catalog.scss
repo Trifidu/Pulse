@@ -173,4 +173,17 @@
       }
     }
   }
+  &__up {
+    display: none;
+    &_btn {
+      margin-top: 25px;
+      display: flex;
+      justify-content: end;
+      font-size: 20px;
+      color: $main-color;
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
 }

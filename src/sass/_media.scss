@@ -95,6 +95,9 @@
       width: 100%;
     }
   }
+  .catalog__up {
+    display: block;
+  }
 }
 
 @media (max-width: 767px) {
@@ -119,6 +122,9 @@
       a {
         margin-right: 35px;
       }
+    }
+    .catalog__up {
+      display: block;
     }
   }
   .promo {
@@ -199,6 +205,9 @@
     img {
       width: 100%;
     }
+  }
+  .catalog__up {
+    display: block;
   }
 }
 @media (max-width: 575px) {
@@ -317,6 +326,25 @@
     width: 305px;
     img {
       width: 100%;
+    }
+  }
+  .catalog {
+    &__tabs {
+      display: block;
+    }
+    &__tab {
+      width: 222px;
+      height: 38px;
+      font-size: 14px;
+      line-height: 33px;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    &__content {
+      margin-top: 25px;
+    }
+    &__up {
+      display: block;
     }
   }
 }
