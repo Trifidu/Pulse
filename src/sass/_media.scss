@@ -347,4 +347,26 @@
       display: block;
     }
   }
+  .feed {
+    &__item {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__text {
+      margin-left: 10px;
+      padding-right: 10px;
+    }
+    &__subtitle {
+      margin-top: 13px;
+      font-size: 16px;
+      text-align: center;
+    }
+    &__count {
+      font-size: 12px;
+      text-align: center;
+    }
+    &__descr {
+      font-size: 14px;
+    }
+  }
 }
