@@ -369,6 +369,9 @@
       font-size: 14px;
       line-height: 16px;
     }
+    label.error {
+      font-size: 12px;
+    }
   }
   .feed-form {
     width: 100%;
@@ -444,7 +447,7 @@
     }
   }
   .modal {
-    width: 280px;
+    width: 250px;
     &__close {
       font-size: 65px;
       right: -40px;
@@ -456,6 +459,14 @@
     &__descr {
       font-size: 12px;
       line-height: 14px;
+    }
+    label.error {
+      font-size: 11px;
+    }
+  }
+  .button {
+    &_submit {
+      font-size: 13px;
     }
   }
 }

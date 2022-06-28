@@ -43,6 +43,16 @@
   &_mini {
     min-height: 140px;
   }
+  .error {
+    text-align: center;
+    border: 1px solid red;
+  }
+  label.error {
+    border: none;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
 }
 #consultation,
 #order,
