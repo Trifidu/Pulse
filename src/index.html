@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -64,7 +65,7 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <img src="icons/benefits/cup.png" alt="cup">
+                    <img src="icons/benefits/cup.png" alt="cup" class="animate__animated animate__flip">
                     <div class="advantages__subtitle">
                         Делимся опытом
                     </div>
@@ -77,7 +78,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/benefits/heart.png" alt="heart">
+                    <img src="icons/benefits/heart.png" alt="heart" class="animate__animated animate__heartBeat">
                     <div class="advantages__subtitle">
                         Заботимся о здоровье
                     </div>
@@ -89,7 +90,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/benefits/shoe.png" alt="shoe">
+                    <img src="icons/benefits/shoe.png" alt="shoe" class="animate__animated animate__swing">
                     <div class="advantages__subtitle">
                         Учим бегать
                     </div>
@@ -153,7 +154,7 @@
                     <div>для триатлона</div>
                 </li>
             </ul>
-            <div class="catalog__content catalog__content_active">
+            <div class="catalog__content catalog__content_active animate__animated animate__fadeInUp">
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
@@ -311,7 +312,7 @@
                     </div>
                 </div>
             </div>
-            <div class="catalog__content">
+            <div class="catalog__content animate__animated animate__fadeInUp">
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
@@ -339,7 +340,7 @@
                     </div>
                 </div>
             </div>
-            <div class="catalog__content">
+            <div class="catalog__content animate__animated animate__fadeInUp">
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
@@ -469,7 +470,7 @@
             </div>
         </div>
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.415886236494!2d37.64671705026246!3d55.768648485735675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1656344608300!5m2!1sru!2sua"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315931104!3d55.76839498055754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1656418796028!5m2!1sru!2sua"
             width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
@@ -525,4 +526,6 @@
     <script src="js/script.js"></script>
 </body>
 
-</html>
+<!-- </html>
+google.maps.event.addDomListener() is deprecated, 
+use the standard addEventListener() method instead -->
