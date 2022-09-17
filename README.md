@@ -14,4 +14,4 @@
 
 ## Link
 
-[versel-Pulse](https://pulse-kappa.vercel.app)
+[vercel-Pulse](https://pulse-kappa.vercel.app)
